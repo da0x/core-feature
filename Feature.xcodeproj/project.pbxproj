@@ -10,6 +10,7 @@
 		4FB737EA1D9C834C00D0B326 /* Feature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB737E01D9C834C00D0B326 /* Feature.framework */; };
 		4FB737EF1D9C834C00D0B326 /* FeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB737EE1D9C834C00D0B326 /* FeatureTests.swift */; };
 		4FB737F11D9C834C00D0B326 /* Feature.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB737E31D9C834C00D0B326 /* Feature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FB738531D9DA06F00D0B326 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB738521D9DA06F00D0B326 /* Feature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		4FB737E91D9C834C00D0B326 /* FeatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB737EE1D9C834C00D0B326 /* FeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTests.swift; sourceTree = "<group>"; };
 		4FB737F01D9C834C00D0B326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB738521D9DA06F00D0B326 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				4FB737E31D9C834C00D0B326 /* Feature.h */,
+				4FB738521D9DA06F00D0B326 /* Feature.swift */,
 				4FB737E41D9C834C00D0B326 /* Info.plist */,
 			);
 			path = Feature;
@@ -149,6 +152,7 @@
 					4FB737DF1D9C834C00D0B326 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = NF856H64DK;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					4FB737E81D9C834C00D0B326 = {
@@ -198,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB738531D9DA06F00D0B326 /* Feature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +327,7 @@
 		4FB737F51D9C834C00D0B326 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = NF856H64DK;
@@ -334,6 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Solstice.Feature;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +348,7 @@
 		4FB737F61D9C834C00D0B326 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = NF856H64DK;
@@ -360,6 +368,7 @@
 		4FB737F81D9C834C00D0B326 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NF856H64DK;
 				INFOPLIST_FILE = FeatureTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +381,7 @@
 		4FB737F91D9C834C00D0B326 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NF856H64DK;
 				INFOPLIST_FILE = FeatureTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +410,7 @@
 				4FB737F61D9C834C00D0B326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FB737F71D9C834C00D0B326 /* Build configuration list for PBXNativeTarget "FeatureTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +419,7 @@
 				4FB737F91D9C834C00D0B326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
