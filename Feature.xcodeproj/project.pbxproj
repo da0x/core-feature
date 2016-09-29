@@ -11,6 +11,7 @@
 		4FB737EF1D9C834C00D0B326 /* FeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB737EE1D9C834C00D0B326 /* FeatureTests.swift */; };
 		4FB737F11D9C834C00D0B326 /* Feature.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB737E31D9C834C00D0B326 /* Feature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FB738531D9DA06F00D0B326 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB738521D9DA06F00D0B326 /* Feature.swift */; };
+		4FB738551D9DA12000D0B326 /* Feature.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB738541D9DA12000D0B326 /* Feature.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		4FB737EE1D9C834C00D0B326 /* FeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTests.swift; sourceTree = "<group>"; };
 		4FB737F01D9C834C00D0B326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB738521D9DA06F00D0B326 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		4FB738541D9DA12000D0B326 /* Feature.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feature.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				4FB737E31D9C834C00D0B326 /* Feature.h */,
 				4FB738521D9DA06F00D0B326 /* Feature.swift */,
 				4FB737E41D9C834C00D0B326 /* Info.plist */,
+				4FB738541D9DA12000D0B326 /* Feature.storyboard */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB738551D9DA12000D0B326 /* Feature.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
