@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CoreProtocols.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Feature.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,20 +14,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Protocol.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>03CF72269817D9F8BBE2878FFB17367C</key>
+		<key>1395E72CA4E6630B5CD146829D612846</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>078EC90856F7060A030EA12CA1E40213</key>
+		<key>BBE8CFB16729B2C45AFFB0EC2E278D8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F70D1A38A6AEAA2593C0B0B620DEA6F6</key>
+		<key>EBFC4F6994DCC94F8584B32BCD9E81C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '03CF72269817D9F8BBE2878FFB17367C'
-               BlueprintName = 'CoreProtocols'
+               BlueprintIdentifier = '1395E72CA4E6630B5CD146829D612846'
+               BlueprintName = 'Protocol'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'CoreProtocols.framework'>
+               BuildableName = 'Protocol.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
