@@ -7,7 +7,9 @@
 //
 
 import Foundation
+import CoreProtocols
 
-public class Feature {
+public class Feature : CoreProtocols.Feature {
     public let featureName = "Feature Name From Code"
 }
+
