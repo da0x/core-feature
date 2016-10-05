@@ -11,5 +11,3 @@ import Foundation
 public protocol Feature {
     func create() -> Feature
 }
-
-

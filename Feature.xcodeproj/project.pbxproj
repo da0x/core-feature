@@ -198,6 +198,7 @@
 					4FB737E81D9C834C00D0B326 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = NF856H64DK;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};

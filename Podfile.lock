@@ -2,11 +2,11 @@ PODS:
   - Protocol (0.0.4)
 
 DEPENDENCIES:
-  - Protocol (~> 0.0.1)
+  - Protocol (~> 0.0.4)
 
 SPEC CHECKSUMS:
   Protocol: c7c8043354920d1ed2bc03840f78611b3634adcd
 
-PODFILE CHECKSUM: 4277df5e9934baeb852a92c6fae2bdb3494d683d
+PODFILE CHECKSUM: ceab1b091a2b83270dbc43a546aab7d0f827092e
 
 COCOAPODS: 1.1.0.rc.2
