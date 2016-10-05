@@ -1,9 +1,9 @@
 //
-//  Feature.swift
+//  Assets.swift
 //  Feature
 //
 //  Created by Daher Alfawares on 9/29/16.
-//  Copyright © 2016 Solstice Mobile. All rights reserved.
+//  Copyright © 2016 Daher Alfawares. All rights reserved.
 //
 
 import Foundation
