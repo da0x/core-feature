@@ -9,7 +9,7 @@
 import Foundation
 import Protocol
 
-open class Assets : Feature {
+public class Assets : Feature {
     
     public init(){
     }
