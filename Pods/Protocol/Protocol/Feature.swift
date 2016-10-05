@@ -11,3 +11,10 @@ import Foundation
 public protocol Feature {
     func create() -> Feature
 }
+
+
+open class FeatureClass {
+    public init(){
+        print("feature constructor")
+    }
+}

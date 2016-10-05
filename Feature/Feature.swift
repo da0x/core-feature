@@ -9,7 +9,14 @@
 import Foundation
 import Protocol
 
-open class Feature : Protocol.Feature {
-    open let featureName = "Feature Name From Code"
+open class Assets : Feature {
+    
+    public init(){
+    }
+
+    public func create() -> Feature {
+        print("creating... works")
+        return Assets()
+    }
 }
 
