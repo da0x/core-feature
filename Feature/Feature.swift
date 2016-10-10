@@ -18,5 +18,14 @@ public class Assets : Feature {
         print("creating... works")
         return Assets()
     }
+    
+    public func destroy(){
+        print("destroying... works")
+    }
+    
+    public func color(){
+        return Color().mainColor()
+    }
+
 }
 
